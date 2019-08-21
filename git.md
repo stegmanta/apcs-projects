@@ -30,10 +30,11 @@ git init
 * rm --cached              --> removes a file from stage
 * git commit -m"Present tense description of what changed" 
 * git log                  --> enter to move down q to quit
-* git checkout -- filename --> discard changes 
+* git checkout -- filename --> discard changes (go back in history)
 
 
 ## Problems
 * commit without -m        --> Use Esc :wq to quit Vim
 * wrong message            --> git commit --amend -m"New message"
 
+New change
