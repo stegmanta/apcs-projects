@@ -14,7 +14,9 @@ git init
 ## 3 Step Repeating Commit Process
 1. Make changes to code
 2. Stage related changes
+    * git add
 3. Commit changes with a message
+    * git commit-m "Message"
 
 
 
@@ -27,8 +29,8 @@ git init
 
 ## Commands
 
-* ls -a       --> shows hidden directories and files
-* git status  --> shows what files have been staged or commitment
-* add --> adds a file to the stage
-* rm --cached --> removes a file from stage
-* git commit- "Present tense description of what changed" 
+* ls -a          --> shows hidden directories and files
+* git status     --> shows what files have been staged or commitment
+* add            --> adds a file to the stage
+* rm --cached    --> removes a file from stage
+* git commit -m  "Present tense description of what changed" 
