@@ -27,5 +27,8 @@ git init
 
 ## Commands
 
-* ls -a  --> shows hidden directories and files
-* git status --> shows what files have been staged or commited
+* ls -a       --> shows hidden directories and files
+* git status  --> shows what files have been staged or commitment
+* add --> adds a file to the stage
+* rm --cached --> removes a file from stage
+* git commit- "Present tense description of what changed" 
