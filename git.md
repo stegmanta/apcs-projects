@@ -19,7 +19,7 @@ git commit-m "Initial Commit"
 2. Stage related changes
     * git add
 3. Commit changes with a message
-    * git commit-m "Message"
+    * git commit -m"Message"
 
 
 
