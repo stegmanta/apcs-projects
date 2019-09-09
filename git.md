@@ -5,6 +5,19 @@ git #Git
  git config --global user.name "Tayler Stegman"
  git config --global user.email "Tae@myfreeapps.com"
 
+# alias
+<!-- .bash_profile create and code -->
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias go="git checkout"
+alias gb="git branch"
+alias gd="git diff"
+
+alias ..="cd .."
+
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 
 ## Project Setup
 git init
@@ -20,7 +33,7 @@ git commit-m "Initial Commit"
     * git add
 3. Commit changes with a message
     * git commit -m"Message"
-:)
+:)git 
 
 
 
